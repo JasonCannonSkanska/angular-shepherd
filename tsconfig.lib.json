@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "../../out-tsc/lib",
+    "sourceMap": true,
+    "inlineSources": true,
+    "types": []
+  },
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "compilationMode": "partial",
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "enableResourceInlining": true
+  },
+  "exclude": ["**/*.spec.ts"]
+}

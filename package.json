@@ -1,0 +1,29 @@
+{
+  "name": "angular-shepherd",
+  "version": "21.0.0",
+  "description": "An Angular wrapper for the site tour library Shepherd.",
+  "keywords": [
+    "angular",
+    "shepherd",
+    "site tour",
+    "tour"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shipshapecode/angular-shepherd.git"
+  },
+  "homepage": "https://github.com/shipshapecode/angular-shepherd",
+  "license": "MIT",
+  "author": {
+    "name": "Robert Wagner",
+    "email": "rwwagner90@gmail.com",
+    "url": "https://github.com/rwwagner90"
+  },
+  "dependencies": {
+    "shepherd.js": "^14.4.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0"
+  }
+}
